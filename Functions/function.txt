@@ -1,0 +1,21 @@
+Function in Javascript:
+-> Block of code that performs a specific task , can be invoked whenever needed 
+
+
+Function Syntax -> 
+
+Function WithoutParameter
+
+function functionName(){
+    // Do some work
+}
+
+Function WithParameter
+
+function functionName(para1,para2){
+    //Do some work
+}
+
+function Calling ->
+
+functionName();
