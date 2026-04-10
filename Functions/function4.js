@@ -6,4 +6,4 @@ function findMax(a, b) {
     }
 }
 
-console.log(findMax(10, 20)); // 20
+console.log(findMax(10, 20));
