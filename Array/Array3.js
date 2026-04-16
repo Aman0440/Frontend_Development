@@ -1,8 +1,10 @@
-let marvelHeross =["spriderman","batman","superman"]
+//shift()
 
-console.log(marvelHeross)
+let marvelHeross =["spriderman","batman","superman"] // created array
 
-let heros = marvelHeross.shift("ironman")
+console.log(marvelHeross) // printed array
 
-console.log(heros)
-console.log(marvelHeross)
+let heros = marvelHeross.shift() // used shift () to remove the starting elements from the array 
+
+console.log(heros)  // printed the removed element from the array 
+console.log(marvelHeross) // printed the array after using shift()
