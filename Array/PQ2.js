@@ -1,4 +1,13 @@
-function greet() {
-  return "Hello";
+function findMax(arr) {
+  let max = arr[0];
+
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i] > max) {
+      max = arr[i];
+    }
+  }
+
+  return max;
 }
-console.log(greet());
+
+console.log(findMax([10, 50, 20, 80, 30]));
