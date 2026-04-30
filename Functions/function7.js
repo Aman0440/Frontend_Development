@@ -11,5 +11,4 @@ function countVowels(str) {
   return count;
 }
 
-
 console.log(countVowels("Aman Shaikh"));
